@@ -92,18 +92,21 @@ body {
 }
 
 .navbar .nav-menu {
+  user-select: none;
   display: flex;
   align-items: center;
   background: var(--bg-primary);
 }
 
 .navbar .nav-link {
+  user-select: none;
   margin: 0 1rem;
   font-size: 0.8rem;
   font-weight: var(--weight-semibold);
 }
 
 .navbar #logo img {
+  user-select: none;
   display: block;
   width: 40px;
 }
@@ -141,6 +144,7 @@ body {
 }
 
 .profile-image {
+  user-select: none;
   width: 150px;
   border-radius: 50%;
   animation: bounce 1s infinite alternate;
@@ -232,10 +236,12 @@ body {
 }
 
 #footer .social {
+  user-select: none;
   margin: 0.9rem 0;
 }
 
 #footer .social img {
+  user-select: none;
   width: 20px;
   height: 20px;
 }
